@@ -1,4 +1,4 @@
-# Professional-Portfolio_Updated
+# Professional Portfolio
 
 ![Screen Shot 2020-10-11 at 9 59 46 AM](https://user-images.githubusercontent.com/64692833/95683463-9e1c5400-0ba8-11eb-99ea-a3498c7a33ae.png)
 
