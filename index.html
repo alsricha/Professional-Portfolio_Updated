@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--MAIN STYLES PAGE-->
+        <link rel="stylesheet" type="text/css" href="Assets/styles.css">
+        <!--Box Icons Link-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+        <!---HEADER--->
+        <header class="One-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav_logo">Alex Skudrovskis</a>
+                </div>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                        <li class="nav_item"><a href="#Portfolio" class="nav_link">Portfolio</a></li>
+                        <li class="nav_item"><a href="#Contact" class="nav_link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="One-main">
+            <!--- HOME SECTION --->
+            <section class="home bd-grid" id="home">
+                <div class="home_info">
+                    <h1 class="home_title">Hello, <br> I'm <span class="home_title-color">Alex</span><br> Student at Denver University</h1>
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/alex-skudrovskis-83204159/" class="home_social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/alsricha" class="home_social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="Assets/Documents/Alex_Skudrovskis_Resume.pdf" class="home_social-icon" download>Resume</a>
+                </div>
+
+                <div class="home_img">
+                    <img src="Assets/Images/Alex_Personal Logo Alt.png" alt="Personal Logo">
+                </div>
+            </section>
+
+            <!--- ABOUT SECTION -->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about_container bd-grid">
+                    <div class="about_img">
+                        <img src="Assets/Images/AboutMePic.jpg" alt="Profile Image">
+                    </div>
+
+                    <div>
+                        <h2 class="about_subtitle">My Story</h2>
+                        <p class="about_text">My family, from both sides are from Latvia. Which is a country many don't know about- this really came in handy during my younger school days in Social Studies class whenever we'd have to 'pick a country to study'. Ask me about the 'songs' I cleverly created shortly before my presentations that always yielded a good grade! Another fun fact is that I'm the only person in the US with my last name, which will double next year when my fiance and I get married. I'm a laid back kind of person- who enjoys having a houseful of friends over just as much as being quarantined at home during this Pandemic. I live with my fiance and our two polar-opposite dogs; one of which has one eye and is alpaca-soft and the other is a couch potato herding pup. I keep LaCroix in business and prefer Costco over Sam's Club hands down.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--- CURRENT SKILLS --->
+            <section class="skills sections" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills_container bd-grid">
+                    <div>
+                        <h2 class="skills_subtitle">Student Skills</h2>
+                        <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quasi optio ipsa nesciunt quia tempore molestias voluptates veritatis, iure eos esse sapiente delectus odio, a expedita nulla corporis rem repudiandae.</p>
+
+                        <!--- HTML5 CATEGORY-->
+                        <div class="skills_info">
+                            <div class="skills_names">
+                                <i class='bx bxl-html5 skills_icon'></i>
+                                <span class="skills_name">HTML5</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">80%</span>
+                            </div>
+                            <div class="skills_bar skills_html"></div>
+                        </div>
+                        <!--- CSS CATEGORY-->
+                        <div class="skills_info">
+                            <div class="skills_names">
+                                <i class='bx bxl-css3 skills_icon' ></i>
+                                <span class="skills_name">CSS</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">80%</span>
+                            </div>
+                            <div class="skills_bar skills_css"></div>
+                        </div>
+                        <!--- JS CATEGORY-->
+                        <div class="skills_info">
+                            <div class="skills_names">
+                                <i class='bx bxl-javascript skills_icon'></i>
+                                <span class="skills_name">JavaScript</span>
+                            </div>
+                            <div>
+                                <span class="skills_percentage">65%</span>
+                            </div>
+                            <div class="skills_bar skills_js"></div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="Assets/Images/Skills_Photo.jpg" alt="Skills Photo" class="skills_img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio_container bd-grid">
+                    <div class="portfolio_img">
+                        <img src="Assets/Images/EventSmash.jpg" alt="EventSmash">
+                        <div class="container">
+                            <h3><a href="https://github.com/falconreid/EventSmash" class="portfolio_name">Event Smash</a></h3>
+                        </div>  
+                    </div>
+                    <div class="portfolio_img">
+                        <img src="Assets/Images/Code Quiz.jpg" alt="Code Quiz">
+                        <div class="container">
+                            <h3><a href="https://github.com/alsricha/Code-Quiz" class="portfolio_name">JS Code Quiz</a></h3>
+                        </div>  
+                    </div>
+                    <div class="portfolio_img">
+                        <img src="Assets/Images/Weather Dashboard.jpg" alt="Weather Dashboard">
+                        <div class="container">
+                            <h3><a href="https://github.com/alsricha/Weather-Dashboard" class="portfolio_name">Weather Dashboard</a></h3>
+                        </div>  
+                    </div>
+                    <div class="portfolio_img">
+                        <img src="Assets/Images/Burgers.jpg" alt="Burger App">
+                        <div class="container">
+                            <h3><a href="https://github.com/alsricha/Burger" class="portfolio_name">Burger Application</a></h3>
+                        </div> 
+                    </div>
+                    <div class="portfolio_img">
+                        <img src="Assets/Images/Employee Tracker.jpg" alt="Template Engine">
+                        <div class="container">
+                            <h3><a href="#" class="portfolio_name">Template Engine</a></h3>
+                        </div> 
+                    </div>
+                    <div class="portfolio_img">
+                        <img src="Assets/Images/Study buddy.jpg" alt="Studdy Buddy">
+                        <div class="container">
+                            <h3><a href="https://github.com/jblatch2/Project2" class="portfolio_name">Study Buddy</a></h3>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <!--- CONTACT SECTION-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact_container bd-grid">
+                    <form action="" class="contat_form">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="mail" placeholder="Email" class="contact_input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+
+                        <input type="button" value="Submit" class="contact_button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <p class="footer_title">Alex Skudrovskis</p>
+
+        <div class="footer-social">
+            <a href="#" class="footer_icon"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="#" class="footer_icon"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#" class="footer_icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p>&#169;2020 copyright all right reserved</p>
+    </footer>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SCROLL REVEAL-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS PAGE-->
+        <script src="Assets/scripts/main.js"></script>
+    </body>
+</html>
